@@ -10,12 +10,14 @@ Auth token appears in `~/.modal.toml`
 
 ### b2
 
-Secrets go in the .env file and are named
-B2_KEY_NAME  
-B2_KEY_ID  
-B2_APP_KEY  
-B2_BUCKET_NAME  
-B2_ENDPOINT
+modal secret create b2-credentials --from-dotenv .env
+
+the .env file should contain:
+B2_KEY_NAME=<name of b2 key>
+AWS_ACCESS_KEY_ID=<B2_KEY_ID>
+AWS_SECRET_ACCESS_KEY=<B2_APP_KEY>
+B2_BUCKET_NAME=<name of b2 bucket>
+B2_ENDPOINT=<e.g. https://s3.us-west-004.backblazeb2.com>
 
 ## Create volume and upload videos
 
