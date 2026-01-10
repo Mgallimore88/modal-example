@@ -29,4 +29,4 @@ then open the URL printed in the terminal
 
 ### Note on speed:
 
-Using the upload_videos.py script was around 60x faster than using the modal volume put command. The modal put command was ran first, so the speedup could be due to caching. Not tested further. If the speedup turns out to be through, try using thread pool execution for further upload speedup.
+Using the upload_videos.py script was around 60x faster than using the modal volume put command. The modal put command was ran first, so the speedup could be due to caching. Not tested further. If the speedup turns out to be real, try using thread pool execution for further upload speedup.
