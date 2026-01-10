@@ -8,6 +8,15 @@
 Auth token appears in `~/.modal.toml`  
 `ls ~/.modal.toml`
 
+### b2
+
+Secrets go in the .env file and are named
+B2_KEY_NAME  
+B2_KEY_ID  
+B2_APP_KEY  
+B2_BUCKET_NAME  
+B2_ENDPOINT
+
 ## Create volume and upload videos
 
 `modal volume create my-video-storage`  
